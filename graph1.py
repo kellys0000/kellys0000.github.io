@@ -26,7 +26,7 @@ for line in data_file:
         else:
             data_dict[category][party_name] = amount
 
-#print data_dict
+print data_dict
 
 category_names_dict = {1:'Healthcare',
                        2:'Education',
@@ -94,7 +94,7 @@ def create_x(y, name, reverse_category_names_dict, data_dict):
 #        print 'CAT CODE: ' + str(cat_code)
         if name not in data_dict[cat_code].keys():
 #            print 'no value for ' + name
-            x.append('0')
+            x.append(0)
         else:
             #print data_dict[cat_code][name]
             x.append(data_dict[cat_code][name])
@@ -102,6 +102,8 @@ def create_x(y, name, reverse_category_names_dict, data_dict):
 ################
 
 y_axis = create_y(category_names_dict)
+for x in y_axis:
+    print x
 #name = 'c'
 
 #print create_x(y, name, reverse_category_names_dict, data_dict)
@@ -148,7 +150,7 @@ trace3 = Bar(
     x = x_axis,
     orientation = 'h',
     marker = Marker(
-        color = 'rgba(255, 153, 51, 0.6)',
+        color = 'rgba(155, 100, 51, 0.6)',
         line = Line(
             color = 'rgba(255, 153, 51, 1.0)',
             width = 1,
@@ -164,7 +166,7 @@ trace4 = Bar(
     x = x_axis,
     orientation = 'h',
     marker = Marker(
-        color = 'rgba(255, 153, 51, 0.6)',
+        color = 'rgba(255, 153, 100, 0.6)',
         line = Line(
             color = 'rgba(255, 153, 51, 1.0)',
             width = 1,
@@ -188,8 +190,10 @@ trace5 = Bar(
     )
 )
 
-lower_name = 'mp',
+print '-------MP-------'
+lower_name = 'mp'
 x_axis = create_x(y_axis, lower_name, reverse_category_names_dict, data_dict)
+print x_axis
 trace6 = Bar(
     y = y_axis,
     name='MP',
@@ -228,6 +232,7 @@ layout = Layout(
 )
 fig = Figure(data=data, layout=layout)
 plot_url = py.plot(fig, filename='marker-h-bar')
+
 
 
 
