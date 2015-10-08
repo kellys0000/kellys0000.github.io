@@ -1,0 +1,222 @@
+1	hälsa	c:2002	mp:2014
+1	läkare	fp:1988
+1	vårdgaranti	fp:2010
+1	sjuksköterska	fp:2014
+1	vård(en)	kd:1998,1988,1991	s:1998	v:1994
+1	omsorg(en)	s:1998
+1	cancervård	kd:2014
+1	ohälsa	m:2014
+1	sjukvård	s:2010
+1	sjuk	v:2014
+2	utbildning	c:1988
+2	kunskaper	fp:1998
+2	högskolan	fp:2002
+2	klassrummet	fp:2014
+2	skola/skolor/skolan	kd:2002	mp:2014,1998,2014 m:1991	s:1998,2014	v:1991	p:2010
+2	läromedel	p:2010
+2	kunskapsburen	s:2014
+2	kunskap	s:2006
+2	studenter	mp:2006
+2	lärare	mp:2014	m:2006
+2	utbildning(en)	c:1998	m:2006	v:1998
+2	förskolan	s:2006,2010
+2	kunskapsresultaten	s:2014
+3	förutsättning	c:2002
+3	jämställdhet	fp:1991
+3	jämlik(het)	kd:2014	fi:2014,2014
+3	kvotering	kd:2014
+3	diskriminering	mp:2006	v:2014	fi:2014
+3	obetalda	fi:2014
+3	läggning	fi:2006
+3	rasism	fi:2014
+3	sexuell	fi:2006
+3	feministisk	fi:2006,2014,2014
+3	rättigheter	fi:2014
+3	funktionsnedsättning	fi:2014
+3	hbtq	mp:2014	fi:2014
+3	kön	p:2014
+3	handikappad	s:1991
+4	status	fp:2010
+4	klyftor(na)	mp:2014	s:1998,2010,1991,2010
+4	orättvisorna	v:2002
+4	rika	v:1998,2014,2002,2006
+4	solidaritet/solidarisk	mp:2002,1991,2006	v:1994,2006,2014
+4	fattiga	v:2002
+4	borgerliga	v:2014,1994
+4	omfördelning	v:1994
+4	högavlönade	v:1998
+4	skillnader	v:2002
+5	jobb(en)(et)	c:2010,2014,2006	fp:1994	m:2014,2014	s:2010,2010	v:2010
+5	personal	s:2002
+5	jobba	kd:2010
+5	anställda	mp:2006	s:2002
+5	ersättning	mp:1994
+5	inkomster	mp:1998	v:2014
+5	arbetslöshet	s:1994	v:2002
+5	heltid	v:2010
+5	timmar(s)	v:2002	fi:2010
+5	arbetstillfällen	v:2006
+5	arbetsdag	v:2002
+5	arbetslösa	s:1994
+5	jobbpolitik	s:2014
+5	arbetstid	mp:2010	fi:2010
+5	medarbetare	mp:2014
+5	arbetar	mp:1991	v:1994	sd:2014,2014
+5	kollektivavtal	v:2006
+5	arbetande	v:1988
+5	arbetslivet	v:2010
+5	löner	v:2002	fi:2006
+5	arbetsgivare	c:2010	fi:2010
+5	villkor	c:2002,1991	fi:2002
+5	arbetsmarknad	c:2014	m:2010
+5	arbete(t)	m:2010	s:1998,1991,1991	v:1991
+5	sysselsättning	m:2010	s:1998,1998,2006
+5	arbetsliv	s:2006
+5	lågavlönade	v:1998
+6	småföretag	mp:2010
+6	sektor	mp:2006	v:2006,2006	p:2014
+6	vinster	v:2014
+6	företag(en)	c:2010	m:1994,1998,2002	s:2010
+6	företagande	m:2002
+6	privatisering	s:2014
+6	vinstjakt	s:2014
+6	spekulation	v:1988
+6	privat(a)	v:2010	fp:1994
+7	emu	mp:2002
+7	eu(s)/europeiska	c:2010	fp:2002,1994,2010	mp:2006	m:2006,2002,2014,1994	v:2002
+7	euron fp:2002
+7	europa(s)	fp:2014,2010	m:1991,1988,2002,1994,1994	sd:2002
+7	fn	mp:2006	fi:2014
+7	ryssland	fp:2014
+7	usa	fp:2002	v:2006
+7	värld(en)	v:2006	fi:2006	fp:1998	s:1998
+7	länder	sd:2002
+8	trygghetssatsning	fp:2006
+8	brottslighet	fp:2014	sd:2006,2010
+8	brott	m:2006,2014	sd:2002
+8	våld	v:1991	fi:2006
+8	övergrepp	sd:2006
+8	grova	sd:2006
+8	rättsväsenda	fi:2010
+8	bränslen	c:1991	mp:2010,1991
+9	avveckla	mp:2002,2010
+9	djur	sd:2006
+9	ekologisk	mp:2014,1998	sd:2002
+9	el	mp:2010	p:2014
+9	energi(n)	c:1994,2010,2014	mp:1994,2010
+9	fossila	mp:1991,2010
+9	förnybar(a)	c:2014,2010,2014	mp:2010
+9	hav	mp:2010
+9	hållbart	mp:1998	v:2006
+9	grön(a)	c:2010,2014	mp:1994,1991
+9	kemikalier	c:2010,2014
+9	klimat	c:2010
+9	klimatmålen	c:2010
+9	kärnkraften	mp:1998
+9	mat	mp:2002
+9	miljö(n)	c:2010,1991,2006	kd:1998,1994	mp:1991,1998	s:1994	v:1994
+9	naturen	mp:2010,1988
+9	resurser	mp:2002	v:1998	fi:2010
+9	utsläpp	mp:1988
+9	varmare	mp:2014
+9	vatten	p:2010
+9	Östersjön	mp:2006
+10	avdragen	kd:2014
+10	jobbskatteavdrag	m:2014
+10	höja	s:2010
+10	skatt(er)(na)	c:1988	m:1998,2002,1991,1994,2002	s:2010
+10	skattesänkning	s:2010
+10	skatteväxling	mp:1994
+10	sänkta/sänks	m:1994	sd:2002
+10	rut	c:2010
+10	inkomstskatt	c:2010
+11	grundtrygghet	c:1994
+11	föräldraförsäkrning	fi:2010
+11	livskvalitet	c:2002
+11	livsmiljö	mp:2002
+11	socialtjänsten	fp:2014
+11	trygghet	s:1991,2002	sd:2010
+11	utsatt(a)	fp:2006,2014
+11	välfärd(en)	c:1988,2006	fp:11	s:2014,2014	v:1994,2010,2014
+11	välfärdspolitiken	m:1994
+11	välstånd	m:1998
+12	bredband	p:2010
+12	bygg(a)	s:2006	v:2010
+12	datorer	p:2010
+12	it	s:1998	p:2010
+12	internet	p:2010
+12	innovation	p:2010
+12	framtiden/framtida	c:2006	m:2010,1988,1991	s:1998,2014	v:2010	p:2014
+12	förnyelse	m:1998
+12	investera/ing	mp:1998,2010	s:2014,2010
+12	källkod	p:2010
+12	patentsystem	p:2010
+12	satsningen	m:2014
+12	sverigebygget	m:2014
+12	mjukvarupatent	p:2010
+12	modernisera	mp:2014
+12	modern	s:2010
+12	patent	p:2010
+12	teknik	s:2006	p:2010
+12	tekniska	p:2010
+12	utveckling(en)	c:1994,2002	s:1991	v:1988,2006	sd:2002	p:2014
+12	utveckla(s)	c:1998	kd:1994	m:1998
+12	vision	k:2006
+13	besparingar	c:1994
+13	budgetunderskott	s:1994
+13	ekonomisk	c:1991	sd:2002
+13	ekonomi	s:1991	fi:2014
+13	insatser	m:2010
+13	finanserna	kd:2010
+13	kapital	v:1991
+13	lågkonjunktur	fp:2010
+13	oecd	m:2002
+13	pengar	fp:2010	mp:1998
+13	resurser(na)	s:2006
+13	sparande	kd:2010
+13	statsfinanser	s:1994
+13	tillväxt	c:2010	m:1991,2002	s:1998
+13	tillgångar	v:1988
+13	växer	s:2010
+13	underskotten	c:1994
+13	överskott	m:2010
+16	asyl	p:2014
+16	integration	fp:2010
+16	integrationssatsningen	fp:2006
+16	invandrare	sd:2010
+16	sfi	fp:2006
+16	utanför(skap)	kd:2006,m:2006
+16	utländsk	v:2002
+17	boende	fp:2010
+17	bostad	kd:2006	mp:2014
+17	hyresrätter	v:2014
+17	tåg	mp:2014
+18	barn(en)(s)	kd:1994,2002,2002,2006	mp:2002 s:1998
+18	barngrupper	kd:2014
+18	idrottsrörelsen	s:2002
+18	fritids	s:2006
+18	ungdomar	kd:1994
+18	unga	kd:1994	s:2002
+19	äldreboende	fp:2010
+19	äldre	fp:2010	sd:2014
+20	landsbygden	c:2014,2006
+20	landet	c:2014
+20	jordbruk	m:1991
+20	regioner	c:2010
+20	regionala	mp:2010
+20	städer	c:2014
+22	kultur(en)	fp:2010	mp:2006	s:2002	sd:2006	p:2014
+22	kulturarvet	sd:2014
+22	tradition(ella)	sd:2006,2010
+22	värna	sd:2006
+23	familjen/familjer	kd:1998,2006	m:1991,2002
+23	hem	fi:2006
+24	demokratisk	mp:1998	v:1991,2010
+24	demokrati(n)	mp:2002	v:1994,2006
+25	konflikt(er)	kd:2002
+25	fred	m:1994	s:2014,2006	v:1991
+25	konfrontation	s:1994
+25	försvar	sd:2010
+26	frihet(en)	fp:1991	kd:2014	mp:1991	m:1998,1988,1994,2002,2002,1991
+26	fri(tt)/fria	v:1991	fi:2006	p:2014,2010,2014,2010
+26	valfrihet	kd:2006	m:1994
