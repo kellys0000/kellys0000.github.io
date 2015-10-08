@@ -13,6 +13,8 @@ data_dict = defaultdict(dict)
 
 data_file = open(sys.argv[1],'r')
 for line in data_file:
+#    print '--------'
+#    print line
     split_line = line.split('\t')
     category = int(split_line[0])
     word = split_line[1]
@@ -20,11 +22,14 @@ for line in data_file:
     for party in party_info:
         split_party_info = party.split(':')
         party_name = split_party_info[0]
+#        print party_name
         amount = len(split_party_info[1].split(','))
+#        print amount
         if party_name in data_dict[category].keys():
             data_dict[category][party_name] += amount
         else:
             data_dict[category][party_name] = amount
+#    print '--------'
 
 #print data_dict
 
@@ -76,7 +81,6 @@ reverse_category_names_dict = {'Healthcare':1,
                                'Peace/conflict':25,
                                'Freedom':26}
 
-##### CREATE X & Y AXES)
 def create_y(category_names_dict):
     """y axis is list of categories (in numerical order)"""
     y_list = []
@@ -99,21 +103,30 @@ def create_x(y, name, reverse_category_names_dict, data_dict):
             #print data_dict[cat_code][name]
             x.append(data_dict[cat_code][name])
     return x
-################
 
 y_axis = create_y(category_names_dict)
 #name = 'c'
 
 #print create_x(y, name, reverse_category_names_dict, data_dict)
 
-####### BEGIN CREATING GRAPH #############
+
 ### one trace for each party
 lower_name = 'c'
 x_axis = create_x(y_axis, lower_name, reverse_category_names_dict, data_dict)
+print x_axis
+
 trace1 = Bar(
+#    y = create_y(category_names_dict),
     y = y_axis,
+#    lower_name = 'c',
     name = 'C',
+#    x = create_x(y_axis, lower_name, reverse_category_names_dict, data_dict),
     x = x_axis,
+    #y = categories
+#    x=[20, 14, 23],
+    #x = amount of category use per party
+    #x = category use per party
+
     orientation = 'h',
     marker = Marker(
         color = 'rgba(55, 128, 191, 0.6)',
@@ -123,12 +136,14 @@ trace1 = Bar(
         )
     )
 )
-
 lower_name = 'fp'
 x_axis = create_x(y_axis, lower_name, reverse_category_names_dict, data_dict)
 trace2 = Bar(
     y = y_axis,
+#    y =create_y(category_names_dict),
     name='FP',
+#    lower_name = 'fp',
+#    x=create_x(y_axis, lower_name, reverse_category_names_dict, data_dict),
     x = x_axis,
     orientation = 'h',
     marker = Marker(
@@ -139,12 +154,15 @@ trace2 = Bar(
         )
     )
 )
-
 lower_name = 'kd'
 x_axis = create_x(y_axis, lower_name, reverse_category_names_dict, data_dict)
 trace3 = Bar(
     y = y_axis,
+#    y =create_y(category_names_dict),
+#    x=[12, 18, 29],
+#    lower_name = 'kd',
     name='KD',
+#    x=create_x(y_axis, lower_name, reverse_category_names_dict, data_dict),
     x = x_axis,
     orientation = 'h',
     marker = Marker(
@@ -155,13 +173,14 @@ trace3 = Bar(
         )
     )
 )
-
 lower_name = 'm'
 x_axis = create_x(y_axis, lower_name, reverse_category_names_dict, data_dict)
 trace4 = Bar(
     y = y_axis,
+#    y =create_y(category_names_dict),
     name='M',
     x = x_axis,
+#    x=create_x(y_axis, lower_name, reverse_category_names_dict, data_dict),
     orientation = 'h',
     marker = Marker(
         color = 'rgba(255, 153, 51, 0.6)',
@@ -171,11 +190,12 @@ trace4 = Bar(
         )
     )
 )
-
 lower_name = 's'
 x_axis = create_x(y_axis, lower_name, reverse_category_names_dict, data_dict)
 trace5 = Bar(
     y = y_axis,
+#    y =create_y(category_names_dict),
+#    x=create_x(y_axis, lower_name, reverse_category_names_dict, data_dict),
     x = x_axis,
     name='S',
     orientation = 'h',
@@ -187,13 +207,14 @@ trace5 = Bar(
         )
     )
 )
-
 lower_name = 'mp',
 x_axis = create_x(y_axis, lower_name, reverse_category_names_dict, data_dict)
 trace6 = Bar(
     y = y_axis,
+#    y =create_y(category_names_dict),
     name='MP',
     x = x_axis,
+#    x=create_x(y_axis, lower_name, reverse_category_names_dict, data_dict),
     orientation = 'h',
     marker = Marker(
         color = 'rgba(255, 153, 51, 0.6)',
@@ -203,12 +224,12 @@ trace6 = Bar(
         )
     )
 )
-
 lower_name = 'v'
 x_axis = create_x(y_axis, lower_name, reverse_category_names_dict, data_dict)
 trace7 = Bar(
     y = y_axis,
     name='V',
+#    x=create_x(y_axis, lower_name, reverse_category_names_dict, data_dict),
     x = x_axis,
     orientation = 'h',
     marker = Marker(
