@@ -35,7 +35,7 @@
 <h3>What are the main topics of the Swedish political party's election manifestos between 1988 and 2014?</h3>
 
     <p>
-      One of my interests is open government and analysing data. One year ago I collected all of the Swedish political party's election manifestos from the years 1988, 1991, 1994, 1998, 2002, 2006, 2010 and 2014. The parties for which data existed for these years are Socialdemokraterna, V√§nsterpartiet, Milj√∂partiet, Moderaterna, Kristdemokraterna, Centerpartiet, Folkpartiet. Once this data was collected and preprocessed, topic modelling was performed, which returned the words in the documents which can be considered uncommonly common. I then manually coded these words as adhering to one of 23 broader categories (shown on the chart's y-axis).
+      One of my interests is open government and analysing data. One year ago I collected all of the Swedish political party's election manifestos from the years 1988, 1991, 1994, 1998, 2002, 2006, 2010 and 2014. The parties for which data existed for these years are Socialdemokraterna, VÅ‰nsterpartiet, MiljÅˆpartiet, Moderaterna, Kristdemokraterna, Centerpartiet, Folkpartiet. Once this data was collected and preprocessed, topic modelling was performed, which returned the words in the documents which can be considered uncommonly common. I then manually coded these words as adhering to one of 23 broader categories (shown on the chart's y-axis).
       </p>
     <p>
       This first visualization of the data combines all the years worth of data into one chart. In other words, the chart shows the most common topics discussed in each political party's manifesto between 1988 and 2014.
@@ -86,7 +86,7 @@
 <img src="6_code.png" alt="code example">
 </p>
 
-<h4>Finally! A chart visualizing some of the data! I used to awesome charting tool <a href="https://plot.ly/">Plotly</a></h4>
+<b>Finally! A chart visualizing some of the data! I used to awesome charting tool <a href="https://plot.ly/">Plotly</a></b>
 
 
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~kellys0000/26.embed"></iframe>
