@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="style.css" type="text/css" />
     
 </head>
-<body>
 
+<body link="blue">
 <!-- webpage content goes here in the body -->
 
 <div id="page">
@@ -43,42 +43,61 @@
     <p>
       I hope to soon visualize more aspects of the data as there is a lot of info there! I could, for example, include the aspect of time to view how trends have changed. This would enable us to view how parties influence one another. I would also like to include the original words found by the topic modelling algorithm in order to show how category use varies between parties. For example, while most parties discuss labor issues, the left vs right blocks describe these in different ways, the former discussing topics like unions and workdays, and the latter discussing topics like employers. 
       </p>
-
+&nbsp;
 <p>
 <b>The process started by collecting all the party manifestos in PDF format...</b>
 </p>
+&nbsp;
+&nbsp;
 <p>
 <img src="1_S_manifest_pdf.png" alt="Manifesto pdf example">
 </p>
-
+&nbsp;
+&nbsp;
+&nbsp;
 <p> 
 <b>In order to make these machine-readable, the unix tool pdftotext was used and all files were converted to txt format...</b>
 </p>
+&nbsp;
+&nbsp;
 <p>
 <img src="2_S_manifest_txt.png" alt="txt file example">
 </p>
-
+&nbsp;
+&nbsp;
+&nbsp;
 <p>
 <b>This is where the MAGIC takes place! The topic modelling algorithm is run on all files...</b>
 </p>
+&nbsp;
+&nbsp;
 <p>
 <img src="3_chi2_magic.png" alt="MAGIC!">
 </p>
-
+&nbsp;
+&nbsp;
+&nbsp;
 <p>
 <b>The data is inserted into an Excel file (because it was sent to Svenska Dagbladet's journalists and graphic designers for reviewing, I HATE Excel personally, you'll see why in a minute)...</b>
 </p>
+&nbsp;
+&nbsp;
 <p>
 <img src="4_excel.png" alt="excel example">
 </p>
-
+&nbsp;
+&nbsp;
 <p>
 <b>This needed to be transformed back to something that the computer could read in order to automatically input the data in the chart later on. I decided on a format that would enable me to convert the raw data file into a datastructure...</b>
 </p>
+&nbsp;
+&nbsp;
 <p>
 <img src="5_datastructure.png" alt="data structure">
 </p>
-
+&nbsp;
+&nbsp;
+&nbsp;
 <p>
 <b>Finally the code was written in order to easily use the data to create various types of charts. By working with this script, I end up eliminating room for human error in data input and save time when creating future charts, which is one of my main priorities.</b>
 </p>
