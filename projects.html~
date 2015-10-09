@@ -44,8 +44,20 @@
       I hope to soon visualize more aspects of the data as there is a lot of info there! I could, for example, include the aspect of time to view how trends have changed. This would enable us to view how parties influence one another. I would also like to include the original words found by the topic modelling algorithm in order to show how category use varies between parties. For example, while most parties discuss labor issues, the left vs right blocks describe these in different ways, the former discussing topics like unions and workdays, and the latter discussing topics like employers. 
       </p>
 
+<p>
+The process started by collecting all the party manifestos in PDF format...
 <img src="1_S_manifest_pdf.png" alt="Manifesto pdf example">
+</p>
 
+<p> 
+In order to make these machine-readable, the unix tool pdftotext was used and all files were converted to txt format...
+<img src="2_S_manifest_txt.png" alt="txt file example">
+</p>
+
+<p>
+This is where the MAGIC takes place! The topic modelling algorithm is run on all files...
+<img src="3_chi2_magic.png" alt="MAGIC!">
+</p>
 
 
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~kellys0000/26.embed"></iframe>

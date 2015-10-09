@@ -46,18 +46,47 @@
 
 <p>
 The process started by collecting all the party manifestos in PDF format...
+</p>
+<p>
 <img src="1_S_manifest_pdf.png" alt="Manifesto pdf example">
 </p>
 
 <p> 
 In order to make these machine-readable, the unix tool pdftotext was used and all files were converted to txt format...
+</p>
+<p>
 <img src="2_S_manifest_txt.png" alt="txt file example">
 </p>
 
 <p>
 This is where the MAGIC takes place! The topic modelling algorithm is run on all files...
+</p>
+<p>
 <img src="3_chi2_magic.png" alt="MAGIC!">
 </p>
+
+<p>
+The data is inserted into an Excel file (because it was sent to Svenska Dagbladet's journalists and graphic designers for reviewing, I HATE Excel personally, you'll see why in a minute...
+</p>
+<p>
+<img src="4_excel.png" alt="excel example">
+</p>
+
+<p>
+This needed to be transformed back to something that the computer could read in order to automatically input the data in the chart later on. I decided on a format that would enable me to convert the raw data file into a datastructure...
+</p>
+<p>
+<img src="5_datastructure.png" alt="data structure">
+</p>
+
+<p>
+Finally the code was written in order to easily use the data to create various types of charts. By working with this script, I end up eliminating room for human error in data input and save time when creating future charts, which is one of my main priorities.
+</p>
+<p>
+<img src="6_code.png" alt="code example">
+</p>
+
+<h4>Finally! A chart visualizing some of the data! I used to awesome charting tool href="plot.ly"></h4>
 
 
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~kellys0000/26.embed"></iframe>
